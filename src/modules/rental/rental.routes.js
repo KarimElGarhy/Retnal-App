@@ -1,15 +1,13 @@
 import { Router } from 'express'
 import {
-    createRental,
-    deleteRental,
-    findAllRentals,
-    findOneRentals,
-    updateRental,
+  createRental,
+  deleteRental,
+  findAllRentals,
+  findOneRentals,
+  updateRental,
 } from './rental.controllers.js'
 
 const rentalRoutes = Router()
-
-
 
 rentalRoutes.post('/', createRental)
 rentalRoutes.get('/', findAllRentals)

@@ -1,12 +1,12 @@
 import { Router } from 'express'
 import {
-    addCar,
-    deleteCar,
-    findAllCars,
-    findCar,
-    searchCarModel,
-    searchCarModelAndAvailable,
-    updateCar,
+  addCar,
+  deleteCar,
+  findAllCars,
+  findCar,
+  searchCarModel,
+  searchCarModelAndAvailable,
+  updateCar,
 } from './car.controllers.js'
 
 const carRouter = Router()
